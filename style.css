@@ -1,0 +1,30 @@
+button{
+  font-weight: bold !important;
+}
+
+input{
+  width: 20rem;
+  background-color: aliceblue;
+  border: none;
+  color: black;
+  padding: 4px;
+}
+
+.food{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 2rem;
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+h1{
+  text-align: center;
+  display: block;
+  
+}
